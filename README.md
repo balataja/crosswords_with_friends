@@ -35,6 +35,10 @@ https://www.npmjs.com/package/mongoose-update-if-current
 -to import folder of json into mongoose
 -FOR %i IN (C:\mongodbData\*.json) DO mongoimport --db dbName --collection colection --type json --file %i
 
+-import single files into mongo
+-mongoimport --db crosswordDb --collection crosswords --type json --file
+
+
 ### Work
 
 DONE:
@@ -46,6 +50,7 @@ Phase 0: Environment Setup/Run Example/Convert Crossword JSON Data
 -create new Mongo database
 -merge react-crossword with mkrn-skeleton
 -populate db with nyt json
+-push to github
 
 Phase 1: Database Persistence Of Game State
 -create Mongoose db models for json data
@@ -81,7 +86,6 @@ Phase 4: Allow Concurrent Games To Be Played
 
 ToDo:
 Phase 0: Environment Setup/Run Example/Convert Crossword JSON Data
--push to github
 
 Phase 1: Database Persistence Of Game State
 

@@ -87,6 +87,7 @@ exports.joinGame = async (ctx, next) => {
         const date = new Date();
         const userGame = {
             gameId: ctx.request.body.gameId,
+            name: game.name,
             createdDate: date,
             isActive: true
         }

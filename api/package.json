@@ -12,7 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "ajv": "^6.10.2",
-    "bcrypt": "^1.0.2",
+    "bcrypt": "^3.0.7",
     "crypto-promise": "^2.0.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^7.4.1",
