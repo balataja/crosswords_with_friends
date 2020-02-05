@@ -205,7 +205,7 @@ class Crossword extends Component {
     const clue = cluesFor(this.clueMap, x, y);
     const focussedClue = this.clueInFocus();
     let newDirection;
-
+    
     const isInsideFocussedClue = () => (focussedClue ? entryHasCell(focussedClue, x, y) : false);
 
     if (
@@ -918,7 +918,7 @@ class Crossword extends Component {
         this.grid = grid;
       },
     };
-
+    
     return (
       <div
         className={`crossword__container crossword__container--${

@@ -12,6 +12,7 @@ const GridTile = new Schema({
     value: String,
     isCorrect: Boolean,
     answeredBy: Number,
+    number: Number,
 }, { _id: false });
 
 const GridStateSchema = new Schema({

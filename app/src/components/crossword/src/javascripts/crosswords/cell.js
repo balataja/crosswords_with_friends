@@ -36,7 +36,7 @@ class Cell extends Component {
         </text>
       );
     }
-
+    
     let cellValue = null;
     if (this.props.value !== undefined) {
       cellValue = (
